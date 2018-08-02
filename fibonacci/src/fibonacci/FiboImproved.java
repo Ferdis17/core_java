@@ -1,5 +1,6 @@
 package fibonacci;
-
+/* the purpose of this improvement is to cut the time complixity of recursion which is exponential.
+It becomes linear without recursion. Which is tremndous improvement.*/
 import java.util.Scanner;
 
 public class FiboImproved {
