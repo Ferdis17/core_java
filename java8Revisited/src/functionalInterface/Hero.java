@@ -49,6 +49,9 @@ public class Hero {
 
 		List<String> result = getNamesMeetingCondition(heroes, h -> h.canFly);
 		result = getNamesMeetingCondition(heroes, h -> h.name.contains("man"));
+
+//		result.forEach(s -> System.out.println(s));
+		heroes.stream().filter(h -> h.canFly).map(h -> h.name).forEach(s -> System.out.println(s));
 	}
 
 }

@@ -18,15 +18,15 @@ public class SingleMaxmum {
 			return 0;
 		}
 
-		int currentMax = Integer.MIN_VALUE;
+		int currentMax = 0;
 		int countMax = 0;
 
-		for (int value : a) {
-			if (value > currentMax) {
-				currentMax = value;
+		for (int i= 0; i<a.length; i++) {
+			if (a[i] > currentMax) {
+				currentMax = a[i];
 				countMax = 1;
 			} else {
-				if (value == currentMax) {
+				if (a[i] == currentMax) {
 					countMax++;
 				}
 			}
