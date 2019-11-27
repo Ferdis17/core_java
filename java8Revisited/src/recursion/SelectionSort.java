@@ -27,8 +27,7 @@ public class SelectionSort {
 			}
 			list[indexMin] =  list[low];
 			list[low] = min;
-			sort(list, low+1, high);
-			
+			sort(list, low+1, high);			
 		}
 		
 		
