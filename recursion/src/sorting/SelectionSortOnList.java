@@ -11,7 +11,7 @@ public class SelectionSortOnList {
 		
 		List<String> myList = new ArrayList<>();
 		
-		myList = Arrays.asList("Kaka", "Messi", "Ronaldo","Zidane");
+		myList = Arrays.asList( "Messi","Ronaldo","Kaka","Zidane");
 		
 		List<Integer> nums = new ArrayList<>();
 		nums = Arrays.asList(3,5,1,8,0,9);
@@ -25,7 +25,6 @@ public class SelectionSortOnList {
 		
 		//sorting integer
 		System.out.println(nums);
-		
 		
 	}
 	
