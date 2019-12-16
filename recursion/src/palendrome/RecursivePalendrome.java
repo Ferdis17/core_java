@@ -20,7 +20,7 @@ public class RecursivePalendrome {
 	public static void main(String[] args) {
 		
 		System.out.println("is mom a palindrome? \n" + isPalendrome("mom"));
-		System.out.println("is papa a palindrome? \n" + isPalendrome("papa"));
+		System.out.println("is abcba a palindrome? \n" + isPalendrome("abcba"));
 
 	}
 
