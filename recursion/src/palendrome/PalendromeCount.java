@@ -1,5 +1,5 @@
 package palendrome;
-
+//this code is from geeksforgeeks
 public class PalendromeCount {
 
 	    // Returns total number of palindrome substring of 
