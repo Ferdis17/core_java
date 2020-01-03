@@ -1,38 +1,39 @@
 package bst;
 
-public class TreeNode<E> {
+public class TreeNode {
+	
+	private int data;
+    private TreeNode left;
+    private TreeNode right;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+    TreeNode(int d) {
+        data = d;
+        left = right = null;
+    }
 
+	public int getData() {
+		return data;
 	}
 
-	private E element;
-	private TreeNode<E> left;
-	private TreeNode<E> right;
-
-	public TreeNode(E e) {
-
-		this.element = e;
-
+	public void setData(int data) {
+		this.data = data;
 	}
 
-	TreeNode<Integer> root = new TreeNode<>(60);
-	// root.left = new TreeNode<>(55);
-	// root.right = new TreeNode<>(100);
-
-	public boolean searchElement(E y) {
-		TreeNode<Integer> root = new TreeNode<>(60);
-		TreeNode<E> current = (TreeNode<E>) root;
-
-		while (current != null) {
-			if (y < current.y) {
-				current = current.left;
-			} else if (y > current.y) {
-				current = current.right;
-			} else
-				return true;
-		}
-		return false;
+	public TreeNode getLeft() {
+		return left;
 	}
+
+	public void setLeft(TreeNode left) {
+		this.left = left;
+	}
+
+	public TreeNode getRight() {
+		return right;
+	}
+
+	public void setRight(TreeNode right) {
+		this.right = right;
+	}
+    
+    
 }
