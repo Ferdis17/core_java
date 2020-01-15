@@ -19,4 +19,14 @@ public class BST {
 			}
 		}
 	}
+	public int searchMinimumElement(TreeNode node) {
+		
+		 TreeNode current = node;
+		
+		while(current.getLeft() != null) {
+			current = current.getLeft();
+		}
+		
+		return current.getData();
+	}
 }

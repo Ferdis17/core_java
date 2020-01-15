@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
-public class EmpTest {
+public class EmpTest{
 
 	public static void main(String[] args) {
 
