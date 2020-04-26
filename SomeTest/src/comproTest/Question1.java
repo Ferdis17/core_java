@@ -21,8 +21,6 @@ public class Question1 {
 		if (arr.length > 0 && n == 0)
 			return 0;
 		int size = 0;
-		
-		//used a set to remove duplicates
 		Set<Integer> newsize = new HashSet<>();
 
 		for (int i = 0; i < arr.length; i++) {
