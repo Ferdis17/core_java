@@ -23,7 +23,6 @@ public class PrimeHappy {
 		}
 		return sum % n == 0 ? 1 : 0;
 	}
-
 	private static boolean isPrime(int n) {
 		for (int i = 2; i <= Math.sqrt(n); i++) {
 			if (n % i == 0) {
